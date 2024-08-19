@@ -35,8 +35,8 @@ def set_hpz_param(zero,gpu_per_nodes):
 @click.option('--zero', type=int, default=2, help='Stage of Deepspeed Zero++')
 @click.option('--partition', type=str, default="vip_gpu_ailab", help='partition name')
 @click.option('--group', type=str, default="ai4bio", help='job name')
-@click.option('--conda_env', type=str, default="base", help='conda envirment')
-@click.option('--workspace', type=str, default="/home/bingxing2/ailab/hehaonan/workspace/", help='conda envirment')
+@click.option('--conda_env', type=str, default="base", help='conda environment')
+@click.option('--workspace', type=str, default="/home/bingxing2/ailab/hehaonan/workspace/", help='main program dir')
 @click.argument('**kwargs', nargs=-1, type=click.UNPROCESSED)
 def main(num_nodes, gpu_per_nodes, job_name,zero,partition,group, conda_env, workspace, **kwargs):
     set_hpz_param(zero,gpu_per_nodes)
