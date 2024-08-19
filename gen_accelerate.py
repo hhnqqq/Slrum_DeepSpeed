@@ -1,4 +1,3 @@
-#!/home/bingxing2/ailab/scxlab0004/.conda/envs/llama_factory/bin/python
 import os
 import sys
 import json
