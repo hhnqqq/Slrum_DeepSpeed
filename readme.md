@@ -1,11 +1,12 @@
-# SACC使用指南
+# Slrum-DeepSpeed使用指南
 
-SACC是AI化学组推出的全网最好用的🐛❤🤗❤🚀 Slurm+Huggingface+Deepspeed大模型训练工具，因为我们实在找不到类似工具，所以也是全网最好用的😀
+Slrum-DeepSpeed基于SACC项目开发，适用于纯deepspeed项目
+SACC是AI化学组推出的全网最好用的Slurm+Huggingface+Deepspeed大模型训练工具，因为我们实在找不到类似工具，所以也是全网最好用的😀
 
 ## 安装
 
 ```Bash
-git clone https://github.com/trotsky1997/sacc_beijingcloud.git
+git clone https://github.com/hhnqqq/Slrum_DeepSpeed/
 cd sacc
 bash ./install.sh
 ```
